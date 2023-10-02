@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Запись на аттестацию</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="example.html">
+				<img src="images/logo.png" alt="Логотип" width="71" height="69">
+				</a></li>
+				<li><a href="index.html">
+				О себе
+				</a></li>
+				<li><a href="info.html">
+				Резюме
+				</a></li>
+				<li><a href="appointment.html">
+				Запись на аттестацию
+				</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Запись на аттестацию</h1>
+		<div class="log-in">
+			<h2>Введите данные</h2>
+			<div class="name">
+				<div>
+				<label for="name">Имя</label>
+				<input type="text" name="first-name" id="first-name">
+				</div>
+				<div>
+				<label for="name">Фамилия</label>
+				<input type="text" name="second-name" id="second-name">
+				</div>
+			</div>
+			<div class="log">
+			<div>
+				<label for="name">Логин</label>
+				<input type="text" name="login" id="login" required>
+				</div>
+				<div>
+				<label for="name">Пароль</label>
+				<input type="password" name="password" id="password" required>
+				</div>
+			</div>
+		</div>
+		<div class="course">
+			<h2>Выберите предмет</h2>
+			<select name="crs" id="crs">
+			<option>Выберите предмет</option>
+			<option value="math">Математика</option>
+			<option value="eng">Английский язык</option>
+			<option value="Phys">Физика</option>
+			</select>
+		</div>
+		<div class="chose-time">
+			<h2>Выберите время</h2>
+			<label for="time-1">
+			<input type="radio" name="time" id="time-1" value="time-1" checked> 9:00 - 10:00 </label><br>
+			<label for="time-2">
+			<input type="radio" name="time" id="time-2" value="time-2"> 10:00 - 11:00 </label><br>
+			<label for="time-3">
+			<input type="radio" name="time" id="time-3" value="time-3"> 11:00 - 12:00 </label><br>
+			<label for="time-4">
+			<input type="radio" name="time" id="time-4" value="time-4"> 12:00 - 13:00 </label><br>
+		</div>
+		<div class="chose-control">
+			<h2>Выберите форму контроля</h2>
+			<label for="ctrl-1">
+			<input type="checkbox" name="ctrl-1" id="ctrl-1" value="ctrl-1"> Тест</label><br>
+			<label for="ctrl-2">
+			<input type="checkbox" name="ctrl-2" id="ctrl-2" value="ctrl-2"> Собеседование</label><br>
+			<label for="ctrl-3">
+			<input type="checkbox" name="ctrl-3" id="ctrl-3" value="ctrl-3"> Доклад</label><br>
+			<label for="ctrl-4">
+			<input type="checkbox" name="ctrl-4" id="ctrl-4" value="ctrl-4"> Контрольная работа</label><br>
+		</div>
+		<div class="course">
+			<h2>Введите дополнительную информацию</h2>
+			<textarea cols="20"></textarea>
+		</div>
+		<form action="" method="post">
+			<input type="submit" value="Отправить">
+		</form>
+	</main>
+	<footer>
+		<a href="https://vk.com/">
+			<img src="images/vk.svg" alt="vk" width="48" height="48">
+		</a>
+		<a href="https://www.deviantart.com">
+			<img src="images/deviantart.svg" alt="deviantart" width="48" height="48">
+		</a>
+		<a href="https://www.youtube.com">
+			<img src="images/youtube.svg" alt="youtube" width="48" height="48">
+		</a>
+		<h3>Сайт разработан ФИ, Copyright © 2023</h3>
+	</footer>
+</body>
+</html>
